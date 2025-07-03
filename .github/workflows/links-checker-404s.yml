@@ -19,10 +19,10 @@ on:
           - kluster.ai
           - Polkadot
       create_issue:
-      description: 'Create GitHub Issue if broken links are found?'
-      required: false
-      type: boolean
-      default: true
+        description: 'Create GitHub Issue if broken links are found?'
+        required: false
+        type: boolean
+        default: true
 
 jobs:
   generate-matrix:
