@@ -23,6 +23,7 @@ on:
       required: false
       default: 'false'
       type: boolean
+      default: true
 
 jobs:
   generate-matrix:
