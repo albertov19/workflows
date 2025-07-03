@@ -21,7 +21,6 @@ on:
       create_issue:
       description: 'Create GitHub Issue if broken links are found?'
       required: false
-      default: 'false'
       type: boolean
       default: true
 
