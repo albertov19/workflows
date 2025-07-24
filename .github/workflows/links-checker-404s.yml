@@ -129,7 +129,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2.4.1
         with:
           args: >
-            --timeout 30
+            --timeout 60
             ${{ steps.lychee_args.outputs.args }}
             './${{ matrix.mkdocs_repo_name }}/site/**/*.html'
           output: ./${{ matrix.mkdocs_repo_name }}/lychee-report.md
